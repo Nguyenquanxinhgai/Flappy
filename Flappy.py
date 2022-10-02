@@ -55,7 +55,7 @@ _____ _
 ♫ Lệnh " HELP " Để Xem Hướng Dẫn ♫
 """)
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+" LoveTool "+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+" FlappyTool "+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == 'layer4' or option == 'LAYER4':
 				os.system('clean');self.Method2()
@@ -73,7 +73,7 @@ _____ _
 			elif option == 'contact' or option == 'CONTACT':
 				print(self.contact)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f abc.py'], shell=True)
+				subprocess.run(['pkill -f Flappy.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} STOP DDOS DONE!")
@@ -105,7 +105,7 @@ _____ _
 		print(Color.LR+"["+Color.LG+"HOME"+Color.LR+"]"+Color.LC+" TRỞ LẠI")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+" LoveTool "+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+" FlappyTool "+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
@@ -191,7 +191,7 @@ _____ _
 			elif option == 'contact' or option == 'CONTACT':
 				print(self.contact)
 			elif option == 'exit' or option == 'EXIT':
-				subprocess.run(['pkill -f abc.py'], shell=True)
+				subprocess.run(['pkill -f Flappy.py'], shell=True)
 			elif option == 'stop' or option == 'STOP':
 				subprocess.run(['pkill screen'], shell=True)
 				print(f"{Color.LG} STOP ATTACK DONE!")
@@ -225,7 +225,7 @@ _____ _
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+" LoveTool "+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+" FlappyTool "+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
@@ -341,6 +341,6 @@ def main():
 
 if __name__ == '__main__':
 	commands = f"""Muốn Vào LAYER7 Nhập Lệnh: layer7 Hoặc LAYER7\nMuốn Vào LAYER4 Nhập Lệnh: layer4 Hoặc LAYER4\n\nHOME: Quay Lại Trang Đầu\nREFRESH: Làm Mới Menu\nCLEAN: Xoá Tất Cả\nEXIT: Thoát\nSTOP: Ngừng DDoS\nCONTACT: Contact/Hỗ Trợ"""
-	contact = f"""Facebook: https://www.facebook.com/nguyenthiquan1303\Zalo: 0342540544"""
+	contact = f"""Facebook: https://www.facebook.com/nguyenthiquan1303\nZalo: 0342540544"""
 	VDH_TOOL = Home(commands, contact)
 	main()
